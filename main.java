@@ -27,6 +27,12 @@
 public class main {
 
     public static void main(String[] args) {
-        
+        noteBook noteBook1 = new noteBook(16, 500, "windows", "black");
+        noteBook noteBook2 = new noteBook(32, 500, "macos", "gray");
+        noteBook noteBook3 = new noteBook(8, 500, "windows", "white");
+        noteBook noteBook4 = new noteBook(16, 500, "windows", "white");
+        noteBook noteBook5 = new noteBook(64, 500, "linux", "black");
+        noteBook noteBook6 = new noteBook(8, 500, "windows", "black");
+        noteBook noteBook7 = new noteBook(16, 500, "macos", "gray");
     }
 }
