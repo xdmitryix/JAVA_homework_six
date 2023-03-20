@@ -12,6 +12,13 @@ public class noteBook {
         this.color = color;
     }
 
+    @Override
+    public String toString() {
+        String res = String.format("OZU:%dgb HardDisk:%dgb OS:%s Color:%s", ozu, hardDisk, OS, color);
+        return res;
+    }
+    
+
 
 
 

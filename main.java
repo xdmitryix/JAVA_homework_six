@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 // Подумать над структурой класса Ноутбук для магазина техники - выделить поля и методы. Реализовать в java.
 // Создать множество ноутбуков.
 // Написать метод, который будет запрашивать у пользователя критерий фильтрации и выведет ноутбуки, отвечающие фильтру.
@@ -34,5 +38,7 @@ public class main {
         noteBook noteBook5 = new noteBook(64, 500, "linux", "black");
         noteBook noteBook6 = new noteBook(8, 500, "windows", "black");
         noteBook noteBook7 = new noteBook(16, 500, "macos", "gray");
+        ArrayList<noteBook> list = new ArrayList<>(Arrays.asList(noteBook1, noteBook2, noteBook3, noteBook4, noteBook5, noteBook6, noteBook7));
+        System.out.println(list.toString());
     }
 }
