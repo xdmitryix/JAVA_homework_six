@@ -34,13 +34,4 @@ public class noteBook {
         String res = String.format("OZU:%dgb HardDisk:%dgb OS:%s Color:%s", ozu, hardDisk, OS, color);
         return res;
     }
-    
-
-
-
-
-    // 1 - ОЗУ
-// 2 - Объем ЖД
-// 3 - Операционная система
-// 4 - Цвет
 }
